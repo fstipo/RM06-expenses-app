@@ -4,7 +4,7 @@ React, CSS
 
 ## Components and libraries
 Moment - for dates
-box-shadow 
+Box-shadow 
 
 
 In the project directory, you can run:
