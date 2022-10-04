@@ -9,6 +9,8 @@
   padding: 10px;
   box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
   font-size: 24px;
+  margin: 0 20px;
+  margin-bottom: 20px;
 }
 
 .expense-item__description {
