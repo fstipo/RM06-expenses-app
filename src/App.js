@@ -1,6 +1,6 @@
 import ExpensesItem from "./components/ExpensesItem";
 const expenses = [
-  { id: "e1", title: "Car Insurance", amount: 94.12, date: new Date(2320, 7, 12) },
+  { id: "e1", title: "Car Insurance", amount: 94.12, date: new Date(2020, 7, 12) },
   { id: "e2", title: "New Desk", amount: 1004.56, date: new Date(2021, 21, 8) },
   { id: "e3", title: "TV", amount: 991.15, date: new Date(2019, 5, 10) },
   { id: "e4", title: "Toilet paper", amount: 14.12, date: new Date(2021, 8, 2) },
@@ -18,8 +18,5 @@ function App() {
     </div>
   )
 }
-
-
-
 
 export default App;
