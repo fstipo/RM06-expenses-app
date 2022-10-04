@@ -3,7 +3,7 @@
 React, CSS
 
 ## Components and libraries
-Moment - for dates
+Moment - for dates\
 Box-shadow 
 
 
