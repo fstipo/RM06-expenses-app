@@ -5,7 +5,8 @@ React, CSS
 ## Components and libraries
 Moment - for dates\
 Box-shadow\
-Card - custom component
+Card - custom component\
+Folder -structure
 
 
 
