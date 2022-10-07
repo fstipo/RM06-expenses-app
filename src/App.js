@@ -6,10 +6,13 @@ import "./components/Expenses/Expenses.css"
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
+  const addExpenseHandler = (expense) => {
+    console.log("Data:", expense);
+  }
 
   return (
     <>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Card className="expenses">
         <Expenses expenseData={expensesListData} />
       </Card>
