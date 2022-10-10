@@ -5,14 +5,10 @@ import './ExpensesItem.css';
 import './ExpenseDate.css';
 
 const ExpensesItem = (props) => {
-  const [title, setTitle] = useState(props.title)
-
-
-
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
-      <h2 className="expense-item__description">{title}</h2>
+      <h2 className="expense-item__description">{props.title}</h2>
       <div className="expense-item__price">${props.price}</div>
     </Card>
   );

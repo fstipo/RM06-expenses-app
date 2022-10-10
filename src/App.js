@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { expensesList as expensesListData } from "./components/Utils/utils";
 import Expenses from "./components/Expenses/Expenses";
 import Card from "./components/UI/Card";
@@ -6,15 +6,19 @@ import "./components/Expenses/Expenses.css"
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
-  const addExpenseHandler = (expense) => {
-    console.log("Data:", expense);
+  const [expenses, setExpenses] = useState(expensesListData);
+  const addExpenseHandler = expense => {
+    if (expense) {
+      expense.date = new Date(expense.date);
+      setExpenses((prev) => [expense, ...prev]);
+    }
   }
 
   return (
     <>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Card className="expenses">
-        <Expenses expenseData={expensesListData} />
+        <Expenses expenseData={expenses} />
       </Card>
     </>
   )
