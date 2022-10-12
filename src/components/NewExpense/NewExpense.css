@@ -7,3 +7,20 @@
   border: 2px solid white;
   background-color: rgb(138, 135, 135);
 }
+
+.expense-start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expense-start button{
+  padding: 20px 40px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid white;
+  background-color: green;
+  border-radius: 20px;
+  font-size: 24px;
+}

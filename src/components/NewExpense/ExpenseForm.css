@@ -38,9 +38,19 @@ input {
   font-weight: bold;
   background-color: green;
   text-transform: uppercase;
-  width: 50%;
+  width: 50%; 
   position: absolute;
+}
+
+.btn-sub{
   top: -46px;
+
+}
+
+.btn-alt{
+  right: 220px;
+  top:-46px
+
 }
 
 .btn:hover {
@@ -49,7 +59,7 @@ input {
 }
 
 .new-expense__action {
-  display: flex;
+  display: flex; 
   justify-content: flex-end;
   align-self: flex-end;
   position: relative;

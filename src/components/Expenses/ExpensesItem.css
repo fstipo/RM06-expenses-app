@@ -33,3 +33,7 @@
   margin-left: auto;
   width: 10rem;
 }
+
+li{
+  list-style: none;
+}
