@@ -4,6 +4,7 @@ import Expenses from "./components/Expenses/Expenses";
 import Card from "./components/UI/Card";
 import "./components/Expenses/Expenses.css"
 import NewExpense from "./components/NewExpense/NewExpense";
+import ExpensesChart from "./components/Expenses/ExpensesChart";
 
 const App = () => {
   const [expenses, setExpenses] = useState(expensesListData);
