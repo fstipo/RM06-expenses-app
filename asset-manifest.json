@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RM06-expenses-app/static/css/main.d8da244d.css",
+    "main.js": "/RM06-expenses-app/static/js/main.fcf3948d.js",
+    "index.html": "/RM06-expenses-app/index.html",
+    "main.d8da244d.css.map": "/RM06-expenses-app/static/css/main.d8da244d.css.map",
+    "main.fcf3948d.js.map": "/RM06-expenses-app/static/js/main.fcf3948d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8da244d.css",
+    "static/js/main.fcf3948d.js"
+  ]
+}
